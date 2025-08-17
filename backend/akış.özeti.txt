@@ -1,0 +1,11 @@
+Kayıt / Giriş yapılır (email & password ile).
+
+Backend, kullanıcıyı doğrular.
+
+Kullanıcı geçerliyse JWT Token oluşturulur.
+
+Token, frontend'e döner (browser'da tutulur – örn. localStorage).
+
+Kullanıcı bir sayfa çağırdığında (örn. /api/cities), token header’da gönderilir.
+
+JwtFilter token’ı kontrol eder → geçerliyse isteği içeri alır.

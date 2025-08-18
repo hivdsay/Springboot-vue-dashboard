@@ -1,0 +1,15 @@
+# Java / Spring Boot
+/backend/target
+*.class
+*.jar
+*.war
+*.ear
+
+# Node / Vue.js
+/frontend/node_modules
+/frontend/dist
+
+# OS / IDE
+.DS_Store
+*.log
+
